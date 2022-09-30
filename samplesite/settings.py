@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # now Django knows that the application is active for this project and 
     # will be able to load the application models
     'blog.apps.BlogConfig',
+    'taggit',
 ]
 
 MIDDLEWARE = [
